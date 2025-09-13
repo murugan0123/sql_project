@@ -18,30 +18,3 @@ It includes:
 3. Execute the queries step by step.  
 4. Check the results and analyze the dataset.  
 
----
-
-## 📊 Sample Queries
-
-```sql
--- Create table
-CREATE TABLE sales (
-    sale_id INT PRIMARY KEY,
-    product_name VARCHAR(100),
-    category VARCHAR(50),
-    amount DECIMAL(10,2),
-    sale_date DATE
-);
-
--- Insert sample record
-INSERT INTO sales VALUES (1, 'Laptop', 'Electronics', 55000, '2025-09-10');
-
--- Find total sales by category
-SELECT category, SUM(amount) AS total_sales
-FROM sales
-GROUP BY category;
-
--- Find top 5 highest sales
-SELECT product_name, amount
-FROM sales
-ORDER BY amount DESC
-LIMIT 5;
