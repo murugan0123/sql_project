@@ -16,5 +16,4 @@ It includes:
 1. Open *MySQL Workbench* (or any SQL client).  
 2. Import and run the file **SQL_project.sql**.  
 3. Execute the queries step by step.  
-4. Check the results and analyze the dataset.  
-
+4. Check the results and analyze the dataset.
