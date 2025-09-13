@@ -20,4 +20,4 @@ It includes:
 
 
 ## 🔗 Project Link
-Click here to view the project https://github.com/murugan0123/sql_project/blob/main/SQL_project.sql
+Click here to view my project : https://github.com/murugan0123/sql_project/blob/main/SQL_project.sql
